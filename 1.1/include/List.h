@@ -81,6 +81,9 @@ class List
                 {
                     head = NewNode_b;
                 }
+                else
+                    ptr->prev->next = NewNode_b;
+
                 NewNode_b->prev = ptr->prev;
                 ptr->prev = NewNode_b;
                 NewNode_b->next = ptr;
@@ -99,6 +102,9 @@ class List
                 {
                     tail = NewNode_a;
                 }
+                else
+                    ptr->next->prev = NewNode_a;
+
                 NewNode_a->next = ptr->next;
                 NewNode_a->prev = ptr;
                 ptr->next = NewNode_a;
