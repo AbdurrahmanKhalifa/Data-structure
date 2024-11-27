@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1732650089 source:d:\iti\data_structure\day_1\1.1\main.cpp
+	<iostream>
+	"List.h"
+
+1732686958 d:\iti\data_structure\day_1\1.1\include\list.h
+	"Node.h"
+
+1732622767 d:\iti\data_structure\day_1\1.1\include\node.h
+
