@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1732802666 source:d:\iti\data_structure\lab\day_3\bubble_soart\main.cpp
+	<iostream>
+	"Linked_List.h"
+
+1732802617 d:\iti\data_structure\lab\day_3\bubble_soart\include\linked_list.h
+

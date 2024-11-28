@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="linear_search/linear_search.cbp" />
+		<Project filename="Binary_search/Binary_search.cbp" />
+		<Project filename="Bubble_soart/Bubble_soart.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
