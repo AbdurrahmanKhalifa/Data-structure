@@ -5,18 +5,20 @@ using namespace std;
 class stk
 {
     node * top;
-    int counter = 0;
+    node * head;  // points to the first element
     public:
         stk()
         {
-            top = nullptr;
+            top = head = nullptr;
         }
         void push(int d)
         {
             node *new_node = new node(d);
+            if(head==nullptr)
+                head = new_node;
+
             new_node->prev = top;
             top = new_node;
-            counter ++;
         }
         bool pop(int &d)
         {
@@ -27,8 +29,9 @@ class stk
                 d = top->data;
                 node *tmp = top;
                 top = top->prev;
+                if (top == nullptr)
+                    head = nullptr;
                 delete tmp;
-                counter --;
                 return 1;
             }
         }
@@ -48,15 +51,13 @@ class stk
             if (cur == nullptr)
                 cout<<"Empty...\n";
             else
-            {
-                cout<<"[";
-                for(int i=0;i<counter;i++)
+            {   cout<<"[";
+                while (cur != nullptr)
                 {
                     cout<<cur->data<<",";
                     cur = cur->prev;
                 }
                 cout<<"\b]\n";
-
             }
         }
 

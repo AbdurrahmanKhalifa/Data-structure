@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1733175826 source:d:\iti\data_structure\lab\day_4\tree_ds\main.cpp
+	<iostream>
+	"tree.h"
+
+1733175722 d:\iti\data_structure\lab\day_4\tree_ds\include\tree.h
+

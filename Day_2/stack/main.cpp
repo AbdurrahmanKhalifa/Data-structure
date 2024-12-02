@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     stk s1;
+    stk s2;
     s1.push(5);
     s1.push(6);
     s1.push(7);
@@ -30,5 +31,8 @@ int main()
     s1.peek(d)?cout<<d<<endl:cout<<"Empty stack\n";
     s1.peek(d)?cout<<d<<endl:cout<<"Empty stack\n";
 
+    s2.display();
+    s2.push(10);
+    s2.display();
     return 0;
 }
